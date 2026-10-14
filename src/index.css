@@ -1,10 +1,43 @@
 :root {
-	--primary-background: #0F0F0F;
-	--primary-text: white;
+	/* Base */
 	--primary-blue: #2861EB;
 	--primary-green: #66FE4C;
 	--primary-orange: #FB5C34;
 
-	background-color: var(--primary-background);
-	color: var(--primary-text);
+	/* Blue states */
+	--primary-blue-hover: #3972FF;
+	--primary-blue-active: #1D4FCC;
+	--primary-blue-focus: #75A0FF;
+	--primary-blue-disabled: #555555;
+
+	/* Green states */
+	--primary-green-hover: #82FF6D;
+	--primary-green-active: #45E62F;
+	--primary-green-focus: #A4FF96;
+	--primary-green-disabled: #555555;
+
+	/* Orange states */
+	--primary-orange-hover: #FF7653;
+	--primary-orange-active: #E64721;
+	--primary-orange-focus: #FFAA94;
+	--primary-orange-disabled: #555555;
+
+	/* Semantic */
+	--color-success: var(--primary-green);
+	--color-warning: var(--primary-orange);
+	--color-error: #FF4D6D;
+	--color-info: var(--primary-blue);
+
+	/* Surfaces */
+	--surface-primary: #0F0F0F;
+	--surface-secondary: #191919;
+	--surface-tertiary: #242424;
+	--border-default: #353535;
+	--border-subtle: #292929;
+
+	/* Text */
+	--text-primary: #FFFFFF;
+	--text-secondary: #B3B3B3;
+	--text-muted: #858585;
+	--text-disabled: #666666;
 }

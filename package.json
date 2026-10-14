@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "react router dev",
+    "dev": "react-router dev",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -27,6 +27,7 @@
     "dayjs": "^1.11.23",
     "embla-carousel": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
+    "idb": "^8.0.4",
     "isbot": "^5.2.2",
     "papaparse": "^5.7.0",
     "react": "^19.3.0",
@@ -38,6 +39,7 @@
     "@eslint/js": "^10.0.1",
     "@react-router/dev": "^8.4.0",
     "@types/node": "^24.13.3",
+    "@types/papaparse": "^5.5.2",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
