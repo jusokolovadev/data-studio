@@ -1,10 +1,16 @@
 import {
 	type RouteConfig,
-	route,
-	index,
+	index, layout, route,
 } from "@react-router/dev/routes";
 
 export default [
-	index("./pages/home.tsx"),
-	route("/", "./pages/home.tsx"),
+	layout("routes/app-layout.tsx", [
+		index("./routes/home.tsx"),
+		// route("datasets", "routes/datasets.tsx"),
+		route(
+			"datasets/:datasetId",
+			"routes/dataset-detail.tsx",
+		),
+		// route("settings", "routes/settings.tsx"),
+	]),
 ] satisfies RouteConfig;

@@ -1,0 +1,22 @@
+.link {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 10px 12px;
+	border-radius: 8px;
+	color: var(--text-secondary);
+	text-decoration: none;
+	transition:
+			background-color 120ms ease,
+			color 120ms ease;
+}
+
+.link:hover {
+	background: var(--surface-tertiary);
+	color: var(--text-primary);
+}
+
+.active {
+	background: rgb(40 97 235 / 15%);
+	color: var(--primary-blue-focus);
+}
