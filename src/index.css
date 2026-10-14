@@ -1,0 +1,10 @@
+:root {
+	--primary-background: #0F0F0F;
+	--primary-text: white;
+	--primary-blue: #2861EB;
+	--primary-green: #66FE4C;
+	--primary-orange: #FB5C34;
+
+	background-color: var(--primary-background);
+	color: var(--primary-text);
+}
